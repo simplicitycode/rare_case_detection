@@ -10,11 +10,6 @@ PALFA_non_pulsars_1200 = benchmark_dir + "/PALFA_list/PALFA1200NonPulsars.txt"
 PALFA_benchmark_data_full = benchmark_dir + "/ToBeLearned_2018/PALFA/raw/PALFA_all_pulsars_non_pulsars.txt"
 
 
-GBT_pulsars_120 = benchmark_dir + "/GBT_list/Pos120_20181008_short.txt"
-GBT_non_pulsars_1200 = benchmark_dir + "/GBT_list/negative1200_short.txt"
-GBT_benchmark_data_full = benchmark_dir + "/ToBeLearned_2018/GBT/raw/GBT_all_pulsars_non_pulsars.txt"
-
-
 def get_pulsar_beams(survey='GBT'):
     if survey == 'GBT':
         pulsar_beams = GBT_pulsars_120
