@@ -3,7 +3,6 @@ from sklearn.utils import shuffle
 import numpy as np
 from dir_path import benchmark_dir
 
-# benchmark_dir = "/home/user/Documents/AstroData/BenchMark/"
 # benchmark data set
 PALFA_pulsars_120 = benchmark_dir + "/PALFA_list/PALFA120Pulsars_20181020.txt"
 PALFA_non_pulsars_1200 = benchmark_dir + "/PALFA_list/PALFA1200NonPulsars.txt"
