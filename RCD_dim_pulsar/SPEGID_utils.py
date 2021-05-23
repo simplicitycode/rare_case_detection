@@ -5,9 +5,9 @@ from dir_path import benchmark_dir
 # from testing_parameters import pulsar_seed, non_pulsar_seed
 
 # benchmark data set
-PALFA_pulsars_120 = benchmark_dir + "/PALFA_list/PALFA120Pulsars_20181020.txt"
-PALFA_non_pulsars_1200 = benchmark_dir + "/PALFA_list/PALFA1200NonPulsars.txt"
-PALFA_benchmark_data_full = benchmark_dir + "/ToBeLearned_2018/PALFA/raw/PALFA_all_pulsars_non_pulsars.txt"
+PALFA_pulsars_120 = benchmark_dir + "/PALFA120Pulsars_20181020.txt"
+PALFA_non_pulsars_1200 = benchmark_dir + "/PALFA1200NonPulsars.txt"
+PALFA_benchmark_data_full = benchmark_dir + "/PALFA_all_pulsars_non_pulsars.txt"
 
 
 def get_pulsar_beams(survey='GBT'):
