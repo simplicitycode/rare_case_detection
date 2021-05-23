@@ -1,3 +1,3 @@
 # rare_case_detection
 
-## Please update path of each data files.
+## Please update path of each data file.
